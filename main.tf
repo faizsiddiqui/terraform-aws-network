@@ -1,8 +1,8 @@
 resource "aws_vpc" "vpc" {
   cidr_block                       = var.aws_vpc_cidr
   instance_tenancy                 = "default"
-  enable_dns_hostnames             = false
-  enable_dns_support               = false
+  enable_dns_hostnames             = true
+  enable_dns_support               = true
   assign_generated_ipv6_cidr_block = true
   tags = {
     Name = var.aws_vpc_name
