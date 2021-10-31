@@ -1,3 +1,3 @@
-# Forkify Network
+# AWS Network
 
-Module to setup forkify network on AWS
+Module to setup base network on AWS
